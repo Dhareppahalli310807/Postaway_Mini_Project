@@ -1,0 +1,28 @@
+{
+  "name": "postaway_mini_project",
+  "version": "1.0.0",
+  "description": "its a simple postaway project ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DhareppaHalli310808"
+  },
+  "author": "Dhareppa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0",
+    "winston": "^3.13.0"
+  }
+}
